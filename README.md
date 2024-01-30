@@ -11,21 +11,21 @@ To run this application, you will need to have a Google Cloud account with BigQu
 
 Adjust the values in the 'constants.env' file as applicable.
 
-KEY_PATH is found in the first link in the helpful links section. 
-PROJECT_ID is what you named your project in the BigQuery client.
-DATASET_ID is what you named your database in the BigQuery client.
-TABLE_ID is what you named your table in the BigQuery client.
-API_KEY is the API key you created for yourself on the eia website. Fourth link in the links section. 
+KEY_PATH is found in the first link in the helpful links section. </br>
+PROJECT_ID is what you named your project in the BigQuery client. </br>
+DATASET_ID is what you named your database in the BigQuery client. </br>
+TABLE_ID is what you named your table in the BigQuery client. </br>
+API_KEY is the API key you created for yourself on the eia website. Fourth link in the links section. </br>
 
 Once the 'constants.env' file is updated, the program can be ran through main.py via a local machine or a hosted machine 24/7. This updates every 24 hours and will pull 2 days worth of energy data from the EIA API.
 
 ## Helpful links
 Google Clound Key Creation: 
-https://cloud.google.com/iam/docs/keys-create-delete#creating 
-Google Cloud BigQuery Project Manager: https://console.cloud.google.com/iam-admin/serviceaccounts/
-Google Cloud Authentication: https://cloud.google.com/bigquery/docs/authentication/service-account-file
+https://cloud.google.com/iam/docs/keys-create-delete#creating </br>
+Google Cloud BigQuery Project Manager: https://console.cloud.google.com/iam-admin/serviceaccounts/ </br>
+Google Cloud Authentication: https://cloud.google.com/bigquery/docs/authentication/service-account-file </br>
 EIA API Registration: https://www.eia.gov/opendata/
 
 Make sure to secure the JSON file and avoid sharing it publicly. It contains sensitive information that grants access to your Google Cloud resources. 
 
-![System Diagram](https://github.com/AddisonFarley/SDEV-280-Capstone/assets/93640684/be911ae9-fa23-4860-b27a-48c698645905)
+![System Diagram](https://github.com/sainmas/-Data-Analytics-and-Software-Development-Capstone/blob/main/System%20Diagram.PNG)
