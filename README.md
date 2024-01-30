@@ -1,13 +1,15 @@
 # Data Analytics and Software Development Capstone Project
 
-Capstone project for the Data Analytics and Software Development, Associate of Applied Sciences degree from Green River College. This application runs a script every 24 hours that will pull relevant energy data from the Energy Information Administration (EIA) API, process and clean it, then will send it to a BigQuery database for storage.
+This project was completed on June 14, 2023 as a capstone project at Green River College for the Data Analytics and Software Development, Associate of Applied Sciences. 
+
+## Overview
+This application runs a script every 24 hours that will pull relevant energy data from the Energy Information Administration (EIA) API, process and clean it, then will send it to a BigQuery database for storage.
 
 ## Authors 
 Mason Sain, Addison Farley, RJ Trenchard, Will Castillo, Noah Lanctot
 
 ## Running the Program
-
-To run this application, you will need to have a Google Cloud account with BigQuery enabled. From Google Cloud, you need to create and download an account service key json (https://console.cloud.google.com/iam-admin/serviceaccounts/) and add that file to your program's root directory.
+To run this application, you will need to have a Google Cloud account with BigQuery enabled. From Google Cloud, you need to create and download an account service key json (https://console.cloud.google.com/iam-admin/serviceaccounts/) and add that file to your program's root directory. Make sure to add the tags as shown 'Database Schema' section in the diagram.
 
 Adjust the values in the 'constants.env' file as applicable.
 
